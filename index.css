@@ -1,15 +1,23 @@
 /* *{
-border: 0;padding: 0; 
+    border: 0;padding: 0; 
     box-sizing: border-box
-} */
+    } */
+    body{
+        width: 99%;
+        text-align: center;
+        text-align: center;
+        background-image: url('images/fondo mipyme.png');
+        background-size:cover; 
+        background-attachment:fixed;
+        background-repeat: no-repeat;   
+        /* #cabeza{font-family:'Courier New', Courier, monospace;font-size:x-large;color: #4826c4;background: #e7e0e088;border-radius: 40%;text-align:center;} */
+    }
+    
 
-body{text-align: center;
-    background-image: url('images/fondo\ mipyme.png');
-    background-size: cover; 
-    background-attachment: fixed;
-    background-repeat: no-repeat; 
-}
-/* #cabeza{font-family:'Courier New', Courier, monospace;font-size:x-large;color: #4826c4;background: #e7e0e088;border-radius: 40%;text-align:center;} */
+
+
+@media (max-width:767px){
+body,section,article{width:100%;}}  
 
 /* address{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:xx-large;} */
 
@@ -56,6 +64,9 @@ border-radius: 10%;text-align: center;
 .foto2{width: 60%;border-radius: 30%;}
 
 footer{background: #5545e7;padding:0%;
-    border:solid 1px;display:flexbox
-}
-
+    border:solid 1px;display:flexbox;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    }
