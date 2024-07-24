@@ -1,0 +1,61 @@
+/* *{
+border: 0;padding: 0; 
+    box-sizing: border-box
+} */
+
+body{text-align: center;
+    background-image: url('images/fondo\ mipyme.png');
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+/* #cabeza{font-family:'Courier New', Courier, monospace;font-size:x-large;color: #4826c4;background: #e7e0e088;border-radius: 40%;text-align:center;} */
+
+/* address{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:xx-large;} */
+
+.logo{width: 10%;border-radius: 80%;}
+.fotoAceite{width: 30%;border-radius: 30%;}
+/* #completo{background: rgb(11, 88, 102);} */
+/* #contact{background: #7e0b0b7c;display: grid;} */
+
+#dropdown{background:#832544ef;color: #9f8ce4;cursor:pointer;
+;border-radius: 30%;padding: 20%;
+/* width: 300%; */
+
+}
+
+#numbers{color: #1a085c;background:#dacbd0af;border-radius: 20%;
+;display:none;padding: 1%;
+}
+
+#dropbuttons:hover div{display: block;}
+#dropbuttons:hover button{background: #910e74;padding: 10%;}
+#dropbuttons a:hover{background: #18e418;} 
+#dropbuttons{display: inline-block;}
+
+/* #cabeza,#dropdown,#numbers{float: left;width:40%;margin: 5%;
+;} */
+
+.layout {
+    /* border-style: dashed; */
+    width: 100%;
+    height:auto;
+    display: flex;
+    gap: 5%;
+    margin-top:3%;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+}
+/* #completo{background: aqua;} */
+#cuadritos{background: #832544ef;color: #d0c8e6;
+padding: 0%;width: 25%;margin-top:7%;border:solid 1px #02021b;
+border-radius: 10%;text-align: center; 
+}
+#lista{list-style: none;}
+.foto2{width: 60%;border-radius: 30%;}
+
+footer{background: #5545e7;padding:0%;
+    border:solid 1px;display:flexbox
+}
+
