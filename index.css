@@ -1,20 +1,15 @@
-/* *{
-    border: 0;padding: 0; 
-    box-sizing: border-box
-    } */
-    body{
-        width: 99%;
-        text-align: center;
-        text-align: center;
-        background-image: url('images/fondo mipyme.png');
-        background-size:cover; 
-        background-attachment:fixed;
-        background-repeat: no-repeat;   
-        /* #cabeza{font-family:'Courier New', Courier, monospace;font-size:x-large;color: #4826c4;background: #e7e0e088;border-radius: 40%;text-align:center;} */
-    }
-    
-
-
+/* .resolucion{width: 99%;text-align: center;} */
+@media screen and(max-width:700px){}
+body{
+    width: 99%;
+    text-align: center;
+    background-image: url('images/fondo mipyme.png');
+    background-size:cover; 
+    background-attachment:fixed;
+    background-repeat: no-repeat; 
+    background-position: center;  
+}
+/* #cabeza{font-family:'Courier New', Courier, monospace;font-size:x-large;color: #4826c4;background: #e7e0e088;border-radius: 40%;text-align:center;} */    
 
 @media (max-width:767px){
 body,section,article{width:100%;}}  
@@ -29,17 +24,18 @@ body,section,article{width:100%;}}
 #dropdown{background:#832544ef;color: #9f8ce4;cursor:pointer;
 ;border-radius: 30%;padding: 20%;
 /* width: 300%; */
-
 }
 
 #numbers{color: #1a085c;background:#dacbd0af;border-radius: 20%;
 ;display:none;padding: 1%;
+position: absolute;box-shadow:10px 10px 8px #3b3bfc
 }
 
 #dropbuttons:hover div{display: block;}
-#dropbuttons:hover button{background: #910e74;padding: 10%;}
+#dropbuttons:hover button{background: #910e74;padding: 25%;;}
 #dropbuttons a:hover{background: #18e418;} 
-#dropbuttons{display: inline-block;}
+#dropbuttons{display: inline-block;position: center;
+}
 
 /* #cabeza,#dropdown,#numbers{float: left;width:40%;margin: 5%;
 ;} */
@@ -63,10 +59,9 @@ border-radius: 10%;text-align: center;
 #lista{list-style: none;}
 .foto2{width: 60%;border-radius: 30%;}
 
-footer{background: #5545e7;padding:0%;
-    border:solid 1px;display:flexbox;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+footer{background: #5545e7;
+    border:solid 1px;    
+    bottom: 0px;
     }
+
+
