@@ -22,7 +22,7 @@ body,section,article{width:100%;}}
 
 #numbers{color: #1a085c;background:#dacbd0af;border-radius: 20%;
 ;display:none;padding: 1%;
-position: absolute;box-shadow:10px 10px 8px #e9197a
+position: absolute;box-shadow:10px 10px 8px #18020c
 }
 
 #dropbuttons:hover div{display: block;}
