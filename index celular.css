@@ -15,19 +15,39 @@ background-position:center;
 body,section,article{width:100%;}}  
 
 .logo{width: 10%;border-radius: 80%;}
-.fotoAceite{width: 30%;border-radius: 30%;}
+
+.fotoAceite{width: 40%;border-radius: 30%;}
+
+/* #cajaAceite{cursor:pointer;width: 90%;border-radius: 30%;
+background: red;
+;} */
+/* #dropbuttons2:hover div{display: block;}
+#dropbuttons2:hover button{background: #910e74;padding: 25%;;}
+#dropbuttons2 li:hover{background: #18e418;} 
+#dropbuttons2{display: inline-block;position: center;
+} */
+
+/* #caudroAceite{width: 50%;background-color: blue;
+position:absolute;display:block;
+} */
+
+#lista{list-style: none;
+/* display:none;position: absolute; */
+}
+
 
 #dropdown{background:#832544ef;color: #9f8ce4;cursor:pointer;
-;border-radius: 30%;padding: 20%;
-}    
+;border-radius: 30%;
+} 
 
 #numbers{color: #1a085c;background:#dacbd0af;border-radius: 20%;
-;display:none;padding: 1%;
-position: absolute;box-shadow:10px 10px 8px #e9197a
+;display:none
+;padding: 1%;
+position:relative;box-shadow:10px 10px 8px #e9197a
 }
 
 #dropbuttons:hover div{display: block;}
-#dropbuttons:hover button{background: #910e74;padding: 25%;;}
+#dropbuttons:hover button{background: #910e74;padding: 10%;}
 #dropbuttons a:hover{background: #18e418;} 
 #dropbuttons{display: inline-block;position: center;
 }
@@ -36,19 +56,21 @@ position: absolute;box-shadow:10px 10px 8px #e9197a
 /* border-style: dashed; */
 width: 100%;
 height:auto;
-display: flex;
-gap: 5%;
-margin-top:3%;
+display:block;
+/* gap: 5%; */
+margin-top:0%;
 padding: 1%;
 justify-content: center;
 align-items: center;
 }
 #cuadritos{background: #7e1e1eef;color: #d0c8e6;
-padding: 0%;width: 60%;margin-top:45%;border:solid 1px #02021b;
+padding: 0%;width: 94%;margin-top:4%;border:solid 1px #02021b;
 border-radius: 10%;text-align: center;
 } 
-#lista{list-style: none;}
-.foto2{width: 60%;border-radius: 30%;}
+
+
+.foto2{width: 60%;border-radius: 30%;
+}
 
 footer{background: #5545e7;
 border:solid 1px;    

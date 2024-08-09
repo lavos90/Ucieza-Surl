@@ -16,6 +16,8 @@ body,section,article{width:100%;}}
 
 /* address{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:xx-large;} */
 
+/* #cajaAceite{display: none;} */
+
 .logo{width: 10%;border-radius: 80%;}
 .fotoAceite{width: 30%;border-radius: 30%;}
 /* #completo{background: rgb(11, 88, 102);} */
@@ -27,7 +29,8 @@ body,section,article{width:100%;}}
 }
 
 #numbers{color: #1a085c;background:#dacbd0af;border-radius: 20%;
-;display:none;padding: 1%;
+;display:none
+;padding: 1%;
 position: absolute;box-shadow:10px 10px 8px #3b3bfc
 }
 
@@ -46,7 +49,7 @@ position: absolute;box-shadow:10px 10px 8px #3b3bfc
     height:auto;
     display: flex;
     gap: 5%;
-    margin-top:3%;
+    margin-top:13%;
     padding: 1%;
     justify-content: center;
     align-items: center;
